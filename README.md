@@ -1,3 +1,11 @@
 # codepath_WebSecurity_Week5
 
 Story 2: I heard about your current situation. Do you know who hacked APEX? -- The Chairman
+Story 6: 
+From: agent99
+To: sydneybristow
+Subject: Encrypted and Signed 
+MessageBody: 
+KSSe9mDzESVpY+oc6SdtZwZBi/K04ufzVfEQNC/fjy3sSRBNyWF248itxV9TKvk6yK4gjrVNS5DAce0cS5iymTmG5VVqbVideRrHU6KVGi3C8Y3aOHh8K87VU3dLkv+11lG0LF75hWGwvi8OjzvnGBKkFVNQMlipYgPthYSD0ixJMF7mN7g5S9+nTb7cxw6Orc83t8FimXlrQwoSq/SD4iKgT36eV/st2z81BcOJ3xoqrJd2RAknomgSQFeh1d/XiYL587PFnWa5vONcBJMHjLGdUtHt6KSdR9xjL4HRp0nIa3efkpoOk1IR79L8RF93eMhdyQD6pz2unEjke7opdQ==
+Signature: npSRc8JBwx3IuOkNwO1SIjP0UQ9dUs/54bLMMSG8fjCLTSmgV2+Bja2heVZSKUStx3iGs8UnWPhPPAPuFJ1brHQIfmZL6mOM28yO+dVr7tI2Ezb5Zo+necBxNkYLY2iV8ozTtmmEhd4VGiWtP9uZfBHErO2MlHhYnsAxWVQNNId9QE+fE4WlMpFsFvhpuTRXPzsdTK4q2hZdrMuWok/QkqcX0fma5SmSqv5YibfQpHDV9AuppobIczG6N8Qu8Ld1T1MtZyj3qyZjVoL5yjqpWUmkZuHolAT/4ACgNdZDIaBfTRtO7o66zgu4GCcHR9m/bOExK+HC+E4+mqDvGIO+JQ==
+
