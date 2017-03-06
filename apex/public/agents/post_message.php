@@ -1,16 +1,22 @@
 <?php
 
   require_once('../../private/initialize.php');
-
+  require_once('../../private/crypto_functions.php');
   if(isset($_POST['submit'])) {
     
     if(!isset($_GET['id'])) {
       redirect_to('index.php');
     }
 
-    // I'm sorry, did you need this code? ;)
-    // Guess you'll just have to re-write it.
-    // With love, Dark Shadow
+    $text = $_POST['plain_text'];
+    $id = $_GET['id'];
+    $agent_result = find_agent_by_id($id);
+    $agent = db_fetch_assoc($agent_result);
+    $sender_id = $current_user['id'];
+    $sender_result = find_agent_by_id($sender_id);
+    $sender = db_fetch_assoc($sender_result);
+    $encrypted_text =  pkey_encrypt($string, $agent['public_key']);
+    $signature = create_signature($encrypted_text, $sender['private_key']);
     
     $message = [
       'sender_id' => $sender['id'],
